@@ -1,0 +1,1 @@
+wget https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-go/config.json && mkdir /etc/shadowsocks-go && mv config.json /etc/shadowsocks-go/config.json && docker run -d -p 9000:9000 -p 9000:9000/udp --name ss-go --restart=always -v /etc/shadowsocks-go:/etc/shadowsocks-go teddysun/shadowsocks-go
