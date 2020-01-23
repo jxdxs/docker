@@ -3,7 +3,7 @@
     "server_ipv6":"::",
     "server_port":20000,
     "local_address":"127.0.0.1",
-    "local_port":1080,
+    "local_port":5080,
     "password":"password",
     "timeout":120,
     "method":"aes-256-cfb",
