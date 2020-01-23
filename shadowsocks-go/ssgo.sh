@@ -7,4 +7,5 @@ docker run -d -p 10000:10000 \
 --dns=8.8.4.4 \
 --name ss-go \
 --restart=always \
--v /etc/shadowsocks-go:/etc/shadowsocks-go teddysun/shadowsocks-go
+-v /etc/shadowsocks-go:/etc/shadowsocks-go \
+teddysun/shadowsocks-go
