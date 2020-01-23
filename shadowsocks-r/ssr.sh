@@ -1,5 +1,6 @@
 wget https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-r/config.json && \
 rm /etc/shadowsocks-r -rf && \
+ls && \
 mkdir /etc/shadowsocks-r && \
 ls && \
 mv config.json /etc/shadowsocks-r/config.json && \
