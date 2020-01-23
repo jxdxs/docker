@@ -2,8 +2,8 @@ wget https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-r/config.
 mv config.json /etc/shadowsocks-r/config.json && \
 docker pull teddysun/shadowsocks-r && \
 docker run -d \
--p 9000:9000 \
--p 9000:9000/udp \
+-p 10000:10000 \
+-p 10000:10000/udp \
 --name ssr \
 --restart=always \
 -v /etc/shadowsocks-r:/etc/shadowsocks-r \
