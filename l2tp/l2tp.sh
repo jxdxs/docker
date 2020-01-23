@@ -6,4 +6,5 @@ docker run -d --privileged \
 --name l2tp \
 --restart=always \
 --env-file /etc/l2tp.env \
--v /lib/modules:/lib/modules teddysun/l2tp
+-v /lib/modules:/lib/modules \
+teddysun/l2tp
