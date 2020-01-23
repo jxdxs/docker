@@ -3,6 +3,6 @@
     "server_port":10000,
     "local_port":1080,
     "password":"password",
-    "method":"aes-256-cfb",
+    "method":"chacha20-ietf-poly1305",
     "timeout":120
 }
