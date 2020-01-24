@@ -1,6 +1,4 @@
 wget https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-go/config.json && \
-rm /etc/shadowsocks-go -rf && \
-ls && \
 mkdir /etc/shadowsocks-go && \
 ls && \
 mv config.json /etc/shadowsocks-go/config.json && \
