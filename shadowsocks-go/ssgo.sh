@@ -4,8 +4,8 @@ ls && \
 mv config.json /etc/shadowsocks-go/config.json && \
 docker pull teddysun/shadowsocks-go && \
 docker run -d \
--p 10000:10000 \
--p 10000:10000/udp \
+-p 10000-11000:10000-11000 \
+-p 10000-11000:10000-11000/udp \
 --dns=8.8.8.8 \
 --dns=8.8.4.4 \
 --name ss-go \
