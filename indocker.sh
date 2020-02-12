@@ -1,5 +1,4 @@
 sudo apt update && \
-apt-get install curl git -y && \
+apt install curl git -y && \
 sudo curl -sSL https://get.docker.com/ | sh && \
-systemctl enable docker && \
-apt install docker-compose -y
+systemctl enable docker
