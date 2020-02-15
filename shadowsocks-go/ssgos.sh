@@ -1,7 +1,7 @@
 wget https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-go/configs.json && \
 mkdir /etc/ssgo && \
 ls && \
-mv config.json /etc/ssgo/config.json && \
+mv configs.json /etc/ssgo/config.json && \
 docker pull teddysun/shadowsocks-go && \
 docker run -d \
 -p 10000-11000:10000-11000 \
