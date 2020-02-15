@@ -3,9 +3,9 @@
 "local_address":"127.0.0.1",
 "local_port":1080,
 "port_password":{
-"7788":"password0",
-"7789":"password1",
-"7790":"password2"
+"10000":"password",
+"10001":"password",
+"10002":"password"
 },
 "timeout":300,
 "method":"aes-256-cfb",
