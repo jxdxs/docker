@@ -3,7 +3,6 @@ version: "3"
 services:
   ssgo:
    image: teddysun/shadowsocks-go
-   restart: "always"
    volumes:
     - "/etc/shadowsocks-go:/etc/shadowsocks-go"
    ports:
