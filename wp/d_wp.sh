@@ -1,2 +1,5 @@
+mkdir wp
 wget https://raw.githubusercontent.com/jxdxs/docker/master/wp/uploads.ini
-wget 
+wget https://raw.githubusercontent.com/jxdxs/docker/master/wp/wp.yml
+ls
+docker-compose -f wp.yml up -d
