@@ -5,6 +5,7 @@ services:
    image: teddysun/shadowsocks-go
    volumes:
     - "/etc/shadowsocks-go:/etc/shadowsocks-go"
+   restart: "always"
    ports:
       - "20000-20020:10000-10020"
       - "20000-20020:10000-10020/udp"
