@@ -7,3 +7,4 @@ services:
     - "/etc/shadowsocks-go:/etc/shadowsocks-go"
    ports:
       - "20000-20020:10000-10020"
+      - "20000-20020:10000-10020/udp"
