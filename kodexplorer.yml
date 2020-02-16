@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  kodexplorer:
+    image: yangxuan8282/kodexplorer
+    restart: "always"
+    ports:
+      - "80:80"
+    volumes:
+      - "./html:/var/www/html"
