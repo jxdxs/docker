@@ -5,6 +5,6 @@ services:
     image: yangxuan8282/kodexplorer
     restart: "always"
     ports:
-      - "80:80"
+      - "888:80"
     volumes:
       - "./html:/var/www/html"
