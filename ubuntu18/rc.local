@@ -1,0 +1,17 @@
+[Unit]
+Description=/etc/rc.local Compatibility
+Documentation=man:systemd-rc-local-generator(8)
+ConditionFileIsExecutable=/etc/rc.local
+After=syslog.target network.target remote-fs.target nss-lookup.target
+ 
+[Service]
+Type=forking
+ExecStart=/etc/rc.local start
+TimeoutSec=0
+RemainAfterExit=no
+GuessMainPID=no
+ 
+#这一段原文件没有，需要自己添加
+[Install]
+WantedBy=multi-user.target
+Alias=rc-local.service
