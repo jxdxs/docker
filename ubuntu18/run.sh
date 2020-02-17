@@ -20,3 +20,11 @@ Alias=rc-local.service
 EOF
 cp /lib/systemd/system/rc.local.service /lib/systemd/system/rc.local.service.bak
 ln -s /lib/systemd/system/rc.local.service /etc/systemd/system/rc.local.service
+
+cat>/etc/rc.local<<EOF
+#!/bin/bash
+# type shell down line
+
+exit 0
+EOF
+sudo chmod +x /etc/rc.local
