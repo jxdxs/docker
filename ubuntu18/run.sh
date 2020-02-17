@@ -18,4 +18,5 @@ WantedBy=multi-user.target
 Alias=rc-local.service
 
 EOF
+cp /lib/systemd/system/rc.local.service /lib/systemd/system/rc.local.service.bak
 ln -s /lib/systemd/system/rc.local.service /etc/systemd/system/rc.local.service
