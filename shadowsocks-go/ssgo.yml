@@ -4,7 +4,7 @@ services:
   ssgo:
    image: teddysun/shadowsocks-go
    volumes:
-    - "/etc/shadowsocks-go:/etc/shadowsocks-go"
+    - "./:/etc/shadowsocks-go"
    restart: "always"
    ports:
       - "10000-10020:10000-10020"
