@@ -1,5 +1,6 @@
 #! /bin/bash
-mkdir ssgo
-wget -c https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-go/configs.json -O ssgo/config.json
-wget -c https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-go/ssgo.yml -O ssgo/ssgo.yml
-docker-compose -f ssgo/ssgo.yml up -d
+mkdir /etc/ssgo
+ls
+wget -c https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-go/configs.json -O /etc/ssgo/config.json
+wget -c https://raw.githubusercontent.com/jxdxs/docker/master/shadowsocks-go/ssgo.yml -O /etc/ssgo/ssgo.yml
+docker-compose -f /etc/ssgo/ssgo.yml up -d
