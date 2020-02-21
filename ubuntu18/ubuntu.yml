@@ -1,0 +1,6 @@
+ubuntu:
+  image: "ubuntu"
+  entrypoint: "/bin/bash"
+  tty: true
+  ports:
+   - "9022:22"
