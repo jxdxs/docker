@@ -3,7 +3,7 @@ services:
    db:
      image: mysql:5.7
      volumes:
-       - ./db_data:/var/lib/mysql
+       - ~/wp/db_data:/var/lib/mysql
      restart: always
      environment:
        MYSQL_ROOT_PASSWORD: password
@@ -15,8 +15,8 @@ services:
        - db
      image: wordpress:latest
      volumes:
-       - ./wp_site:/var/www/html
-       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+       - ~/wp/wp_site:/var/www/html
+       - ~/wp/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
      ports:
        - "80:80"
      restart: always
