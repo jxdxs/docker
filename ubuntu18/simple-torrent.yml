@@ -4,8 +4,8 @@ services:
         ports:
             - '3000:3000'
         volumes:
-            - '/root/bt/downloads:/downloads'
-            - '/root/bt/torrents:/torrents'
-            - '/root/bt/config:/etc/cloud-torrent'
+            - '/home/bt/downloads:/downloads'
+            - '/home/bt/torrents:/torrents'
+            - '/home/bt/config:/etc/cloud-torrent'
         image: boypt/cloud-torrent
         command: --auth username:password
