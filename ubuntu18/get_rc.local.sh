@@ -28,3 +28,5 @@ cat>/etc/rc.local<<EOF
 exit 0
 EOF
 sudo chmod +x /etc/rc.local
+
+echo "good, ok"
