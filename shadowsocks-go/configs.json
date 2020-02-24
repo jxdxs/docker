@@ -4,8 +4,9 @@
 "local_port":1080,
 "port_password":{
 "10000":"password",
+"10001":"password",
 "10002":"password",
-"10002":"password",
+"10003":"password",
 "10004":"password",
 "10005":"password",
 "10006":"password",
