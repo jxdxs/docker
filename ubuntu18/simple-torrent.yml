@@ -9,3 +9,4 @@ services:
             - '/home/bt/config:/etc/cloud-torrent'
         image: boypt/cloud-torrent
         command: --auth username:password
+        restart: always
