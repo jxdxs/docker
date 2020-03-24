@@ -26,6 +26,6 @@
 "10020":"password"
 },
 "timeout":300,
-"method":"aes-256-cfb",
+"method":"chacha20-ietf-poly1305",
 "fast_open": false
 }
