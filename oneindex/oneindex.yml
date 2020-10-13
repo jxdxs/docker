@@ -5,6 +5,7 @@ services:
     image: setzero/oneindex
     ports:
     - "80:80"
+    restart: always
     environment:
     - REFRESH_TOKEN=0 * * * *
     - REFRESH_CACHE=*/10 * * * *
