@@ -4,7 +4,7 @@ services:
   oneindex:
     image: setzero/oneindex
     ports:
-    - "80:80"
+    - "88:80"
     restart: always
     environment:
     - REFRESH_TOKEN=0 * * * *
@@ -13,5 +13,5 @@ services:
     # - SSH_PASSWORD=root
     # - TZ=Asia/Shanghai
     volumes:
-    - ./config:/var/www/html/config
-    - ./cache:/var/www/html/cache
+    - ./od/config:/var/www/html/config
+    - ./od/cache:/var/www/html/cache
