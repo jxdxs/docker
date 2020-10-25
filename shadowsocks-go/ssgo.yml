@@ -2,7 +2,7 @@ version: "3"
 
 services:
   ssgo:
-   image: teddysun/shadowsocks-go
+   image: xhfz/ssgo
    volumes:
     - "/etc/ssgo:/etc/shadowsocks-go"
    restart: "always"
