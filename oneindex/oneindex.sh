@@ -4,4 +4,4 @@ docker run -d --name oneindex \
     -v ~/od/cache:/var/www/html/cache \
     -e REFRESH_TOKEN='0 * * * *' \
     -e REFRESH_CACHE='*/10 * * * *' \
-    setzero/oneindex
+    xhfz/self:od
