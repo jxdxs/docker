@@ -8,7 +8,7 @@ docker run \
     -v /opt/dnsmasq.conf:/etc/dnsmasq.conf \
     --restart=always \
     --log-opt "max-size=100m" \
-    -e "HTTP_USER=foo" \
-    -e "HTTP_PASS=bar" \
+    -e "HTTP_USER=yun" \
+    -e "HTTP_PASS=hhsj" \
     --restart always \
     jpillora/dnsmasq
