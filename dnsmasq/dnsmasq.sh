@@ -1,3 +1,5 @@
+wget -O /opt/dnsmasq.conf 
+
 docker run \
     --name dnsmasq \
     -d \
