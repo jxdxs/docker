@@ -1,4 +1,4 @@
-wget -O /opt/dnsmasq.conf 
+wget -O /opt/dnsmasq.conf https://raw.githubusercontent.com/jxdxs/docker/master/dnsmasq/dnsmasq.conf
 
 docker run \
     --name dnsmasq \
