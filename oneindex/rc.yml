@@ -7,3 +7,4 @@ services:
     restart: always
     volumes:
     - /root/rc/.config/rclone:/config/rclone
+    - /root:/root
