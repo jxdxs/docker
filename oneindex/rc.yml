@@ -2,8 +2,8 @@
 version: "3"
 services:
   oneindex:
-    image: xhfz/self:od
+    image: xhfz/self:rc
     ports:
     restart: always
     volumes:
-    - /root/.config/rclone:/config/rclone
+    - /root/rc/.config/rclone:/config/rclone
