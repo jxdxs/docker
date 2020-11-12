@@ -1,4 +1,4 @@
-docker run -d --name rc \
+docker run -dit --name rc \
     --restart=always \
     -v /root:/root \
     xhfz/self:rc
