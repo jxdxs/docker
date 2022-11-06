@@ -1,4 +1,4 @@
-apt install curl -y
+apt install -y curl htop vnstat wget vim
 curl -sSL https://get.docker.com/ | sh
 systemctl enable docker
 curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
