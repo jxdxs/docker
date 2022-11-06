@@ -1,2 +1,2 @@
 apt update
-apt install -y curl wget vnstat vim htop vnstat
+apt install -y curl wget vnstat vim htop vnstat screen
