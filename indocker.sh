@@ -1,3 +1,4 @@
+apt update -y
 apt install -y curl htop vnstat wget vim
 curl -sSL https://get.docker.com/ | sh
 systemctl enable docker
