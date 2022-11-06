@@ -2,7 +2,7 @@ version: "3"
 
 services:
   ssgo:
-   image: xhfz/ssgo
+   image: teddysun/shadowsocks-go
    container_name: ssgo
    volumes:
     - "/etc/ssgo:/etc/shadowsocks-go"
