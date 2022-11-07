@@ -15,6 +15,7 @@
 "10009":"password"
 },
 "timeout":300,
-"method":"chacha20-ietf-poly1305",
+"method":"aes-256-cfb",
 "fast_open": false
 }
+
