@@ -1,6 +1,0 @@
-ubuntu:
-  image: "ubuntu:16.04"
-  entrypoint: "/bin/bash"
-  tty: true
-  ports:
-   - "9022:22"
